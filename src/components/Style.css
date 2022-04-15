@@ -1,0 +1,68 @@
+.main{
+    background-color: rgb(125, 125, 230);
+    height: 100vh;
+    width: 100vw;
+}
+.stuff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-weight:600;
+    font-size:x-large;
+}
+.field{
+    margin-top: 5px;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+.field::-webkit-scrollbar{
+    height: 0%;
+}
+.ins{
+    display: flex;
+    flex-direction: row;
+}
+.ins form{
+    display: flex;
+}
+.ins input{
+    border-radius: 4px 0px 0px 4px;
+    height: 45px;
+    width: 230px;
+    padding-left: 10px;
+}
+.ins img{
+    height: 45px;
+    width: 50px;
+    background-color: wheat;
+    padding: 5px;
+    border-radius: 0px 7px 7px 0px;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.two img{
+    background-color: red;
+}
+.textarea{
+    background-color: white;
+    height: 45px;
+    width: 270px;
+    box-shadow: 0px 2px 5px 0px grey;
+    border-radius: 5px 0px 0px 5px;
+}
